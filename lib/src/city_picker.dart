@@ -131,7 +131,7 @@ class _CityPickerState extends State<CityPicker> {
 
     return Container(
       color: Colors.white,
-      height: 40.0,
+      height: 55.0,
       child: Row(
         children: <Widget>[
           buildButton("取消", () {
