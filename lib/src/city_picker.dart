@@ -124,7 +124,7 @@ class _CityPickerState extends State<CityPicker> {
   Widget _buildButtons() {
     Widget buildButton(String text, Function onTap) {
       return CupertinoButton(
-        child: Text(text),
+        child: Text(text, textScaleFactor: 1,),
         onPressed: onTap,
       );
     }
@@ -223,6 +223,7 @@ class _CityPickerState extends State<CityPicker> {
       padding: const EdgeInsets.symmetric(horizontal: 5.0),
       child: Text(
         text,
+        textScaleFactor: 1,
         textAlign: TextAlign.center,
         style: const TextStyle(fontSize: 14.0),
       ),
